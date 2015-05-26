@@ -3,7 +3,9 @@ sphero-bluemix-android
 
 This [project](https://github.com/IBM-Bluemix/sphero-bluemix-android) is a simple Android app that demonstrates how to steer a [Sphero](http://www.gosphero.com/sphero/) ball via URL commands using [IBM Bluemix](http://bluemix.net), the [MQTT](http://mqtt.org) protocol and the [IBM Internet of Things](https://console.ng.bluemix.net/?ace_base=true#/store/serviceOfferingGuid=8e3a9040-7ce8-4022-a36b-47f836d2b83e&fromCatalog=true) service. Watch the [video](http://heidloff.net/nh/home.nsf/article.xsp?id=02.03.2015083022NHEATJ.htm) and read the [slides](http://heidloff.net/nh/home.nsf/article.xsp?id=16.03.2015093840NHEC68.htm) to learn more.
 
-For the communication between the Android app and IBM Bluemix the [MQTT client Paho](https://www.eclipse.org/paho/clients/java/) from Apache is used that comes with the project. For the communication between the Android app and the ball over bluetooth the [Sphero Android SDK](https://github.com/orbotix/Sphero-Android-SDK) is used. Since the SDK is not available under an open source license three files need to be downloaded and copied into the Android project.
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/GojsUXfMPU2Aty" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+For the communication between the Android app and IBM Bluemix the [MQTT client Paho](https://www.eclipse.org/paho/clients/java/) from Eclipse is used that comes with the project. For the communication between the Android app and the ball over bluetooth the [Sphero Android SDK](https://github.com/orbotix/Sphero-Android-SDK) is used. Since the SDK is not available under an open source license three files need to be downloaded and copied into the Android project.
 
 Author: Niklas Heidloff [@nheidloff](http://twitter.com/nheidloff)
 
