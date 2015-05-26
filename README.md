@@ -1,7 +1,7 @@
 sphero-bluemix-android
 ================================================================================
 
-This [project](https://github.com/IBM-Bluemix/sphero-bluemix-android) is a simple Android app that demonstrates how to drive a [Sphero](http://www.gosphero.com/sphero/) ball via URL commands using [IBM Bluemix](http://bluemix.net), the [MQTT](http://mqtt.org) protocol and the [IBM Internet of Things](https://console.ng.bluemix.net/?ace_base=true#/store/serviceOfferingGuid=8e3a9040-7ce8-4022-a36b-47f836d2b83e&fromCatalog=true) service. Watch the [video](http://heidloff.net/nh/home.nsf/article.xsp?id=02.03.2015083022NHEATJ.htm) and read the [slides](http://heidloff.net/nh/home.nsf/article.xsp?id=16.03.2015093840NHEC68.htm) to learn more.
+This [project](https://github.com/IBM-Bluemix/sphero-bluemix-android) is a simple Android app that demonstrates how to steer a [Sphero](http://www.gosphero.com/sphero/) ball via URL commands using [IBM Bluemix](http://bluemix.net), the [MQTT](http://mqtt.org) protocol and the [IBM Internet of Things](https://console.ng.bluemix.net/?ace_base=true#/store/serviceOfferingGuid=8e3a9040-7ce8-4022-a36b-47f836d2b83e&fromCatalog=true) service. Watch the [video](http://heidloff.net/nh/home.nsf/article.xsp?id=02.03.2015083022NHEATJ.htm) and read the [slides](http://heidloff.net/nh/home.nsf/article.xsp?id=16.03.2015093840NHEC68.htm) to learn more.
 
 For the communication between the Android app and IBM Bluemix the [MQTT client Paho](https://www.eclipse.org/paho/clients/java/) from Apache is used that comes with the project. For the communication between the Android app and the ball over bluetooth the [Sphero Android SDK](https://github.com/orbotix/Sphero-Android-SDK) is used. Since the SDK is not available under an open source license three files need to be downloaded and copied into the Android project.
 
@@ -49,3 +49,5 @@ Launch the app 'Sphero Bluemix' on your Android device and select your Sphero ba
 * [/left](http://mysphero.mybluemix.net/left)
 * [/right](http://mysphero.mybluemix.net/right)
 * [/reverse](http://mysphero.mybluemix.net/reverse)
+
+![alt text](https://raw.githubusercontent.com/IBM-Bluemix/sphero-bluemix-android/master/images/nodered2.png "Flow")
